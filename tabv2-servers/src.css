@@ -46,7 +46,7 @@
 .scroller__3d071>div[aria-label="Servers"]:has(ul) {
     transition: linear 1s;
     position: absolute;
-    top: 12px;
+    top: 5px;
 }
 
 .scroller__3d071>div[aria-label="Servers"]:has(ul) .wrapper_ed1dea {
@@ -57,13 +57,13 @@
 .tutorialContainer_dc6fde {
     position: absolute;
     right: 0px;
-    top: 12px;
+    top: 5px;
 }
 
 .scroller__3d071 > div:has([aria-label="Explore Discoverable Servers"]) {
     position: absolute;
     right: 64px;
-    top: 12px;
+    top: 5px;
 }
 
 .scroller__3d071>div:has(.guildSeparator_dcb3cc),
