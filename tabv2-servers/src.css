@@ -1,3 +1,10 @@
+/**
+ * @name TabsV2
+ * @description Server selector from tabs v2
+ * @author hnml, .cyclone.
+ * @version 2
+ * @authorId 645877523481362432, 114159871875612679
+ */
 .wrapper_a7e7a8.guilds__2b93a {
     position: absolute;
     left: 50%;
@@ -150,4 +157,7 @@
     top:50%;
     left:50%;
     transform: translate(0%, -50%);
+}
+.accountProfilePopoutWrapper_af829a {
+  left: 0px;
 }
