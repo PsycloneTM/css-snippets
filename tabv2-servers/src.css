@@ -135,7 +135,7 @@
     pointer-events: none;
 }
 .scroller__3d071>div[aria-label="Servers"]:has(ul) .wrapper_ed1dea > .listItem_fa7b36 .wrapper__3af0b{
-    left:-2px;
+    left: 0px;
     bottom: 0px;
 }
 .scroller__3d071>div[aria-label="Servers"]:has(ul) .wrapper_ed1dea > .listItem_fa7b36 .target__47b05.dragOver__84b73:before{
