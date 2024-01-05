@@ -8,7 +8,7 @@
     src: url("https://cdn.discordapp.com/attachments/714888484565024844/1110309116875903137/unregistered-hype.ttf") ; /* lol */
 }
 
-/* Activate Discord | AkiraSimplex#5199 */
+/* Activate Discord | @akirasimplex */
 /* the og https://discord.com/channels/1015060230222131221/1028106818368589824/1109871258021138432 */
 body::after {
     font-size: 20px;
@@ -36,7 +36,7 @@ div#app-mount::after {
 
 /* Bandicam | Snare-Hawk#6331 */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1110262945927147583 */
-.appAsidePanelWrapper-ev4hlp::after {
+.appAsidePanelWrapper__714a6::after {
     font-size: 24px;
     content: "www.Bandicam.com";
     font-family: Tahoma, Verdana, Segoe, sans-serif;
@@ -55,7 +55,7 @@ div#app-mount::after {
 }
 
 
-/* Shutterstock | nml#7636 */
+/* Shutterstock | @hnml */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1110281082844237854 */
 div#app-mount::before {
     position: absolute;
@@ -75,7 +75,7 @@ div#app-mount::before {
 
 /* Unregistered Hypercam 2 | Snare-Hawk#6331 */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1110282836772147201 */
-.appAsidePanelWrapper-ev4hlp::before {
+.appAsidePanelWrapper__714a6::before {
     content: "Unregistered Hypercam 2";  
     font-family: "Supertext";
     background-color: white;
@@ -90,9 +90,9 @@ div#app-mount::before {
 }
 
 
-/* gettyimages | siIver#7587 */
+/* gettyimages | @silversnow__ */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1110293408167243776 */
-.notAppAsidePanel-3yzkgB::after {
+.notAppAsidePanel__9d124::after {
   background-image: url(https://i.imgur.com/EJxRD1m.png);
   content: "";
   left: 73%;
@@ -108,7 +108,7 @@ div#app-mount::before {
 }
 
 
-/* ifunny.co | lew ♡#1712 */
+/* ifunny.co | @dwnas */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1110300814876094534 */
 body::before {
 background-image: url("https://cdn.discordapp.com/attachments/1024286218801926184/1110305122086551602/Untitled1.png");
@@ -125,7 +125,7 @@ background-image: url("https://cdn.discordapp.com/attachments/102428621880192618
 }
 
 
-/* dvd logo | nml#7636 */
+/* dvd logo | @hnml */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1110319718188986448 */
 @keyframes dvd-x {
     from {left: 0px;}
@@ -143,7 +143,7 @@ background-image: url("https://cdn.discordapp.com/attachments/102428621880192618
     from {--cy: 0deg;}
     to {--cy: 90deg;}
 }
-.notAppAsidePanel-3yzkgB::before {
+.notAppAsidePanel__9d124::before {
   background-image: url(https://cdn.discordapp.com/attachments/714888484565024844/1110313146347954256/dvd-logo-png-33.png);
   content: "";
   width: 110px;
