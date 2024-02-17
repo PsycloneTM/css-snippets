@@ -5,10 +5,11 @@
  * @version 2
  * @authorId 645877523481362432, 114159871875612679
  */
+
 .wrapper_a7e7a8.guilds__2b93a {
     position: absolute;
     left: 50%;
-    height: 300px;
+    height: 250px;
     width: 300px;
     transform: translate(-50%);
     resize: both;
@@ -22,6 +23,14 @@
     opacity: 1;
 }
 
+.wrapper_a7e7a8.guilds__2b93a:has(div[style="opacity: 1; height: 56px; transform: scale(1);"]) {
+    height: 310px;
+}
+
+.scroller__3d071{
+    display: flex;
+    flex-wrap: wrap;
+}
 .scroller__3d071>div[aria-label="Servers"] {
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +71,7 @@
 
 .scroller__3d071 > div:has([aria-label="Explore Discoverable Servers"]) {
     position: absolute;
-    right: 64px;
+    right: 56px;
     top: 5px;
 }
 
@@ -129,35 +138,61 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: solid black 2px;
+    border: solid var(--background-tertiary) 2px;
     background-color: var(--brand-experiment);
     transition: 0.2s ease-out;
     pointer-events: none;
 }
+
+.pill__357e7 {
+  position: relative;
+}
+
+.pill_d1140c {
+  position: relative;
+}
+
 .scroller__3d071>div[aria-label="Servers"]:has(ul) .wrapper_ed1dea > .listItem_fa7b36 .wrapper__3af0b{
     left: 0px;
     bottom: 0px;
 }
+
 .scroller__3d071>div[aria-label="Servers"]:has(ul) .wrapper_ed1dea > .listItem_fa7b36 .target__47b05.dragOver__84b73:before{
     background-color: var(--red-360);
 }
+
 .wrapper__3af0b{
     top: 0px;
     right: 0px;
     bottom: -8px;
     flex-direction:row;
 }
+
 .target__47b05.dragOver__84b73:before {
     top: 0px;
     left: 8px;
     width: 4px;
     height: 100%;
 }
+
 .centerTarget_dffece.dragOver__84b73:before {
     top:50%;
     left:50%;
     transform: translate(0%, -50%);
 }
+
 .accountProfilePopoutWrapper_af829a {
   left: 0px;
+}
+
+.tutorialContainer__890ea{
+    width: 100%;
+}
+
+:root {
+  --custom-list-items-list-item-width: 56px;
+}
+
+.expandedFolderBackground__1bec6 {
+  display: none;
 }
